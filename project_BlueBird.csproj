@@ -18,4 +18,10 @@
     <PackageReference Include="TweetinviAPI" Version="4.0.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="README.txt">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
