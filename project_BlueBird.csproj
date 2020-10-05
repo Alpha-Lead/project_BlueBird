@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="export\**" />
+    <Compile Remove="ingest\**" />
+    <EmbeddedResource Remove="export\**" />
+    <EmbeddedResource Remove="ingest\**" />
+    <None Remove="export\**" />
+    <None Remove="ingest\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TweetinviAPI" Version="4.0.3" />
+  </ItemGroup>
+
+</Project>
